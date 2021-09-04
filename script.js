@@ -14,10 +14,13 @@ const closeModal = function(){
     overlay.classList.add('hidden');
 }
 
+// select button and open the modal
 for(let i = 0; i<btnsOpenModal.length; i++){
     btnsOpenModal[i].addEventListener('click',openModal);
 }
 
-
+// close button of modal
 btnsCloseModal.addEventListener('click', closeModal)
+
+// click anywhere
 overlay.addEventListener('click',closeModal)
