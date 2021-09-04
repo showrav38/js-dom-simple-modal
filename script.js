@@ -29,7 +29,7 @@ btnsCloseModal.addEventListener('click', closeModal);
 // click anywhere
 overlay.addEventListener('click', closeModal);
 
-
+// esc button event
 document.addEventListener('keydown', function (e) {
   console.log(e['key']);
 
